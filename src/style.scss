@@ -1,0 +1,36 @@
+
+$font: Lato;
+$linkcolor: red;
+
+.container{
+  min-width: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: $linkcolor
+}
+
+h1, p {
+   font-family:$font;
+}
+//BEM
+.content{
+  padding: 15px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    
+  }
+  &__photo{
+    margin-right:15px;
+  }
+  &__main{
+    display: flex;
+    flex-direction: row;
+  }
+}
